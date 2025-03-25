@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const name = prompt("Enter the birthday person's name:");
+    const name = "Nafisa";
     if (name) {
         document.getElementById("name").textContent = name;
     }
