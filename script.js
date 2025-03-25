@@ -1,9 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const name = "Nafisa";
-    if (name) {
-        document.getElementById("name").textContent = name;
-    }
-});
+
 
 function startCelebration() {
     document.getElementById("birthdaySong").play();
