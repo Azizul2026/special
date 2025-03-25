@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+/* Heading & Message */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.message {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Photo Frame */
+.photo-frame {
+    margin-top: 20px;
+}
+
+.photo-frame img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Celebrate Button */
+.celebrate-btn {
+    background: #ff4081;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.celebrate-btn:hover {
+    background: #d81b60;
+    transform: scale(1.1);
+}
+
+/* Confetti Canvas */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
